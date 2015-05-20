@@ -1,0 +1,42 @@
+{
+    "name":         "coolcsn/csn-session-in-db",
+    "description":  "Saving sessions in a database based on DoctrineORMModule",
+    "type":         "library",
+    "license":      "BSD-3-Clause",
+    "homepage":     "https://github.com/coolcsn/CsnSessionInDB",
+    "keywords": [
+        "zf2",
+        "csn-session-in-db",
+        "doctrine-orm-module",
+        "doctrine"
+    ],
+    "authors": [
+        {
+            "name":      "Stoyan Cheresharov",
+            "email":     "stoyancheresharov@gmail.com",
+            "homepage":  "http://coolcsn.com/",
+            "role":      "Developer"
+        },
+        {
+            "name":      "Nikola Vasilev",
+            "email":     "niko7vasilev@gmail.com",
+            "role":      "Developer"
+        },
+		{
+            "name":      "Svetoslav Chonkov",
+            "email":     "svetoslav.chonkov@gmail.com",
+            "role":      "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/doctrine-orm-module": ">=0.7",
+		"coolcsn/csn-session-in-db": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "CsnSessionInDB\\": "src/"
+        }
+    }
+}
